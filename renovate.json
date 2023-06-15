@@ -3,5 +3,8 @@
   "extends": [
     "config:base"
   ],   
-  "npmrc": "registry=https://us-west1-npm.pkg.dev/hanzhenyi3/washington-npm-remote/\n//us-west1-npm.pkg.dev/hanzhenyi3/npmplayground/:always-auth=true//us-west1-npm.pkg.dev/hanzhenyi3/npmplayground/:_authToken={{ secrets.AR_TOKEN }}"
+  "npmrc": "registry=https://us-west1-npm.pkg.dev/hanzhenyi3/washington-npm-remote/\n//us-west1-npm.pkg.dev/hanzhenyi3/npmplayground/:always-auth=true//us-west1-npm.pkg.dev/hanzhenyi3/npmplayground/:_authToken={{ NPM_TOKEN }}",
+  "encrypted": {
+    "npmToken": "wcFMA/xDdHCJBTolAQ//X4Uz1GbfjhASkpu4CkIzN0faoewpgsE8etO3tDYfnhi4cRXq9NI0WDV4jTz905uJnV9v7XY/Ts8aEOsuFf+iqMiaS0LVzGVrhtO6vqzy3OGvPJVdcLLJOIptlgDlKl7U27ELXp0jr2vNH6l+DGpkYUucrdteNbFr7qPkAJcDjiLOLUkRXJDlKe75V+7DRK1ExhIEYuNr5b9WBQ/xrW3vhbAwhWYbEUwmKvqv+GkpmEYBIsiY4FKUk4iNaAgfD/F5ci3GVuHkIpYzsKXO81IelWlTzgKQZxdXVFer64NMqy2EmZDn8uz92LE7kNtpFqdhuM0TR8rZqp1t/zGf6upLL2WPVJub3udxcj65E+vstJRhl91fwNKub0g+ZGUr1C5HP1ng3Agx9gCXOJwzrQ1/cXAdKo/YRwHuU/cu+KkptrE+UP51fff368Mge5bT1gps98EimcCjii/GYxO2N0qs0pjsFteAMMeb8m15eE+xvoC7JAYWkWa66DgiW+nvlMsWuaAWCoal+AkJpvf/mvU19nHn8iU7CfDEKSkyJxMWNDzx4XrkkGJkZB8uL+uNa1J7Z3o8XzrotblL2YwFObDEqBMLLuMVzr6rXm6mRCrs+NS8+KAUb1GkjL4qE8bCqE48fY7KIeXpylAD3XYnpqtufKBY26Jww0VLVhhbrNjT09jSwG4BQ1AtgeXz26xkCXwsaCMnZ519OJnsKu2G75EoCO5pfKFtPO1lMvkLZnTx8W1/a+AC9EviiANLTpL+HpWHGcYt1PTI8mQzG9WcMxYk2X21GKwMs6BVTmO8fz9/dv3U9c+InJppdsMx+fz3loiSOXJr569rl7tQs7c/Oh/gMbk8lH5ggPotqTuY+JJ8P59AV5HQcA4RaO1fVok67PAxzSJ62LiI4q8kybokKnkEUM5zqgEpUd53+Lkwz+hFYZebuxhReL+vTbP7XHNCNzqrGfptkCSozCmnX6LR/2xIic5x6zmiImcV5KH8nDDw7r7/ouQo18SImo80JFOHDHG8h8qqZxkitS/PU4cimdlk+6ZOwTTMU//UFiGHzzqawI133UfFFV/Ygwc6zeJNpNStTw"
+  }
 }
