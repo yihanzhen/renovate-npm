@@ -2,5 +2,6 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:base"
-  ]
+  ],   
+  "npmrc": "registry=https://us-west1-npm.pkg.dev/hanzhenyi3/washington-npm-remote/\n//us-west1-npm.pkg.dev/hanzhenyi3/npmplayground/:always-auth=true//us-west1-npm.pkg.dev/hanzhenyi3/npmplayground/:_authToken={{ secrets.AR_TOKEN }}"
 }
