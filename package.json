@@ -1,0 +1,14 @@
+{
+  "name": "@scope/pushtest",
+  "version": "14.0.2",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "dependencies": {
+    "eslint": "8.40.0"
+  },
+  "license": "ISC"
+}
