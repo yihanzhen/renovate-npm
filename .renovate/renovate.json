@@ -1,0 +1,20 @@
+{
+    "extends": [
+      "config:base",
+      "docker:disable"
+    ],
+    "pinVersions": false,
+    "rebaseStalePrs": true,
+    "schedule": [
+      "after 9am and before 3pm"
+    ],
+    "gitAuthor": null,
+    "packageRules": [
+      {
+        "extends": "packages:linters",
+        "groupName": "linters"
+      }
+    ],
+    "ignoreDeps": ["typescript"],
+    "npmrc": "registry=https://us-west1-npm.pkg.dev/hanzhenyi3/washington-npm-remote/\n//us-west1-npm.pkg.dev/hanzhenyi3/npmplayground/:always-auth=true//us-west1-npm.pkg.dev/hanzhenyi3/npmplayground/:_authToken={{ secrets.AR_TOKEN }}"
+  }
